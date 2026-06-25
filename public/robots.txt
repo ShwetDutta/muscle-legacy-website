@@ -1,0 +1,6 @@
+# robots.txt for Muscle Legacy
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://musclelegacy.com/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "Muscle Legacy",
+  "description": "Premium luxury strength training, boxing, weight loss, Zumba, and general fitness center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
