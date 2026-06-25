@@ -130,20 +130,7 @@ export default function Membership({ onPlanSelect }: MembershipProps) {
           ))}
         </motion.div>
 
-        {/* Note Area */}
-        <div className="mt-16 text-center border border-brand-border/40 bg-brand-secondary/30 rounded-xl p-6 max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-4 text-left">
-          <div className="w-10 h-10 rounded-full bg-brand-accent/5 border border-brand-accent/20 flex items-center justify-center text-brand-accent shrink-0">
-            <Check className="w-5 h-5" />
-          </div>
-          <div>
-            <p className="text-xs text-white font-sans font-bold uppercase tracking-wider mb-0.5">
-              15% Annual Subscriptions Discount
-            </p>
-            <p className="text-xs text-brand-muted font-sans leading-relaxed">
-              Commit to an annual membership upfront and unlock an automatic 15% pricing reduction across all tiers, alongside free premium merchandise bag. Mention this to our concierge desk upon registration.
-            </p>
-          </div>
-        </div>
+
 
       </div>
     </section>
