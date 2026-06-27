@@ -72,7 +72,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           {/* Headline */}
           <motion.h1
             variants={itemVariants}
-            className="font-display text-6xl sm:text-7xl xl:text-8.5xl leading-none text-white uppercase tracking-tight mb-6"
+            className="font-display text-4xl min-[380px]:text-5xl min-[480px]:text-6xl sm:text-7xl xl:text-8.5xl leading-none text-white uppercase tracking-tight mb-6"
           >
             Build More <br />
             Than Muscle. <br />
@@ -84,7 +84,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           {/* Subheading */}
           <motion.p
             variants={itemVariants}
-            className="text-brand-muted font-sans text-base sm:text-lg md:text-xl max-w-xl leading-relaxed mb-10"
+            className="text-brand-muted font-sans text-sm sm:text-base md:text-xl max-w-xl leading-relaxed mb-10"
           >
             Premium strength training, boxing, weight loss, Zumba, and general fitness designed to help you become your strongest self. 
             <span className="text-white font-medium block mt-1">Strength Built Daily. Legacy Earned Forever.</span>
@@ -97,7 +97,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           >
             <button
               onClick={onJoinClick}
-              className="bg-brand-accent text-brand-bg font-sans font-bold text-sm uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white hover:text-brand-bg hover:shadow-xl hover:shadow-brand-accent/10 transition-all duration-300 transform active:scale-98 cursor-pointer focus:outline-none focus:ring-2 focus:ring-brand-accent"
+              className="bg-brand-accent text-brand-bg font-sans font-bold text-xs uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white hover:text-brand-bg hover:shadow-xl hover:shadow-brand-accent/10 transition-all duration-300 transform active:scale-98 cursor-pointer focus:outline-none focus:ring-2 focus:ring-brand-accent"
             >
               Join Today
             </button>
@@ -112,7 +112,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           {/* Trust Badges */}
           <motion.div
             variants={itemVariants}
-            className="grid grid-cols-2 gap-x-6 gap-y-3 w-full border-t border-brand-border/60 pt-8"
+            className="grid grid-cols-1 min-[400px]:grid-cols-2 gap-x-6 gap-y-3 w-full border-t border-brand-border/60 pt-8"
           >
             {trustBadges.map((badge, idx) => (
               <div key={idx} className="flex items-center gap-3 text-white">

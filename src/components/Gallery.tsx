@@ -91,7 +91,7 @@ export default function Gallery() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[260px] md:auto-rows-[250px]"
         >
           {galleryItems.map((item) => {
             const Icon = item.icon;
@@ -99,7 +99,7 @@ export default function Gallery() {
               <motion.div
                 key={item.id}
                 variants={itemVariants}
-                className={`${item.sizeClass} relative rounded-2xl bg-brand-secondary border border-brand-border/40 hover:border-brand-accent/40 overflow-hidden group p-8 flex flex-col justify-between shadow-lg transition-colors duration-300`}
+                className={`${item.sizeClass} relative rounded-2xl bg-brand-secondary border border-brand-border/40 hover:border-brand-accent/40 overflow-hidden group p-6 sm:p-8 flex flex-col justify-between shadow-lg transition-colors duration-300`}
               >
                 {/* Abstract drafting grid texture */}
                 <div className="absolute inset-0 z-0 opacity-20 bg-[linear-gradient(rgba(255,212,0,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,212,0,0.015)_1px,transparent_1px)] bg-[size:16px_16px]" />
