@@ -1,5 +1,5 @@
 import React from "react";
-import { Hammer, Loader2, Sparkles, Sliders, Shield, Compass } from "lucide-react";
+import { Hammer, Sparkles, Sliders, Shield, Compass } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function Gallery() {
@@ -75,13 +75,6 @@ export default function Gallery() {
             <p className="text-brand-muted font-sans text-sm sm:text-base leading-relaxed">
               We are carefully engineering Chennai's most exclusive physical architecture. Explore our blueprint zones below — each currently undergoing precise active renovation.
             </p>
-          </div>
-
-          <div className="inline-flex items-center gap-3 px-5 py-3 bg-brand-secondary border border-brand-border rounded-xl">
-            <Loader2 className="w-4 h-4 text-brand-accent animate-spin" />
-            <span className="text-xs font-sans font-bold text-white uppercase tracking-widest">
-              Renovations Underway
-            </span>
           </div>
         </div>
 
