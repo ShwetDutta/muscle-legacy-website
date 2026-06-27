@@ -93,7 +93,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
   };
 
   return (
-    <section id="contact" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="contact" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
         {/* Header Block */}
@@ -142,7 +142,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-1 transition-all ${
+                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-1 transition-all ${
                           formErrors.name 
                             ? "border-red-500/80 focus:ring-red-500/50" 
                             : "border-brand-border/60 focus:border-brand-accent focus:ring-brand-accent/50"
@@ -166,7 +166,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-1 transition-all ${
+                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-1 transition-all ${
                           formErrors.phone 
                             ? "border-red-500/80 focus:ring-red-500/50" 
                             : "border-brand-border/60 focus:border-brand-accent focus:ring-brand-accent/50"
@@ -192,7 +192,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-1 transition-all ${
+                        className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-1 transition-all ${
                           formErrors.email 
                             ? "border-red-500/80 focus:ring-red-500/50" 
                             : "border-brand-border/60 focus:border-brand-accent focus:ring-brand-accent/50"
@@ -215,7 +215,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
                         name="subject"
                         value={formData.subject}
                         onChange={handleInputChange}
-                        className="w-full bg-brand-bg text-white border border-brand-border/60 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent/50 transition-all cursor-pointer"
+                        className="w-full bg-brand-bg text-white border border-brand-border/60 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent/50 transition-all cursor-pointer"
                       >
                         <option value="General Inquiry">General Inquiry</option>
                         <option value="Starter Plan Registration">Starter Plan Registration</option>
@@ -241,7 +241,7 @@ export default function Contact({ selectedSubject }: ContactProps) {
                       rows={5}
                       value={formData.message}
                       onChange={handleInputChange}
-                      className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-1 transition-all resize-none ${
+                      className={`w-full bg-brand-bg text-white border rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-1 transition-all resize-none ${
                         formErrors.message 
                           ? "border-red-500/80 focus:ring-red-500/50" 
                           : "border-brand-border/60 focus:border-brand-accent focus:ring-brand-accent/50"

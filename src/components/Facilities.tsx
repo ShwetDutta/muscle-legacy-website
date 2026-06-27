@@ -33,7 +33,7 @@ export default function Facilities() {
   };
 
   return (
-    <section id="facilities" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="facilities" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       {/* Visual background accents */}
       <div className="absolute top-0 right-1/4 w-[1px] h-48 bg-gradient-to-b from-brand-accent/20 to-transparent pointer-events-none" />
 

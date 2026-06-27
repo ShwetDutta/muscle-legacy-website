@@ -11,7 +11,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="faq" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       <div className="max-w-4xl mx-auto relative z-10">
         
         {/* Title */}

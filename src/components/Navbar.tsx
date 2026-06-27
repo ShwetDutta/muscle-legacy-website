@@ -68,7 +68,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
             <img
               src="/IMG_0997.JPG-removebg-preview.png"
               alt="Muscle Legacy"
-              className="h-16 md:h-22 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300"
+              className="h-12 sm:h-16 md:h-22 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300"
               referrerPolicy="no-referrer"
             />
           </a>

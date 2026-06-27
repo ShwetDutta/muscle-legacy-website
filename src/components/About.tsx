@@ -59,7 +59,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="about" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       {/* Background aesthetic line */}
       <div className="absolute right-0 top-0 w-[1px] h-full bg-gradient-to-b from-brand-accent/10 via-transparent to-transparent hidden lg:block" />
 

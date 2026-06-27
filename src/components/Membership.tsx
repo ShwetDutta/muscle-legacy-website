@@ -22,7 +22,7 @@ export default function Membership({ onPlanSelect }: MembershipProps) {
   };
 
   return (
-    <section id="membership" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="membership" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       {/* Abstract light effects */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-brand-accent/3 blur-[120px] rounded-full pointer-events-none" />
 

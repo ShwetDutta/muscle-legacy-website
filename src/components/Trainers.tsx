@@ -91,7 +91,7 @@ export default function Trainers() {
   };
 
   return (
-    <section id="trainers" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="trainers" className="relative bg-[#0d0d0d] py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       {/* Decorative grids */}
       <div className="absolute bottom-0 left-0 w-32 h-32 text-brand-accent/3 opacity-30">
         <svg width="100%" height="100%" fill="currentColor">

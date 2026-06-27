@@ -13,7 +13,7 @@ export default function Classes() {
     : CLASSES.filter(item => item.tag === activeFilter);
 
   return (
-    <section id="classes" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="classes" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       {/* Background radial soft light */}
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-brand-accent/3 blur-[100px] rounded-full pointer-events-none" />
 

@@ -60,7 +60,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20">
+    <section id="gallery" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
         {/* Title and renovation notice */}

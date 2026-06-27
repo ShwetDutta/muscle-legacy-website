@@ -32,7 +32,7 @@ export default function App() {
   };
 
   return (
-    <div className="bg-[#090909] text-white min-h-screen font-sans selection:bg-brand-accent selection:text-brand-bg relative">
+    <div className="bg-[#090909] text-white min-h-screen font-sans selection:bg-brand-accent selection:text-brand-bg relative w-full max-w-full overflow-x-hidden">
       {/* Dynamic Global Grid Lines Accent */}
       <div className="fixed inset-0 pointer-events-none z-30 opacity-5">
         <div className="max-w-7xl mx-auto h-full w-full border-x border-brand-border" />
