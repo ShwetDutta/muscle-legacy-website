@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instagram, Twitter, Youtube, ArrowUp } from "lucide-react";
+import { Instagram, ArrowUp } from "lucide-react";
 
 export default function Footer() {
   const handleScrollToTop = () => {
@@ -34,40 +34,13 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3">
               <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-brand-secondary border border-brand-border/60 hover:border-brand-accent text-brand-muted hover:text-brand-accent flex items-center justify-center transition-colors"
-                aria-label="Facebook Link"
-              >
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/_musclelegacy_/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-lg bg-brand-secondary border border-brand-border/60 hover:border-brand-accent text-brand-muted hover:text-brand-accent flex items-center justify-center transition-colors"
                 aria-label="Instagram Link"
               >
                 <Instagram className="w-4 h-4" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-brand-secondary border border-brand-border/60 hover:border-brand-accent text-brand-muted hover:text-brand-accent flex items-center justify-center transition-colors"
-                aria-label="Twitter Link"
-              >
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-brand-secondary border border-brand-border/60 hover:border-brand-accent text-brand-muted hover:text-brand-accent flex items-center justify-center transition-colors"
-                aria-label="Youtube Link"
-              >
-                <Youtube className="w-4 h-4" />
               </a>
             </div>
           </div>
