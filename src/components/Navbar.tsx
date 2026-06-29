@@ -41,7 +41,6 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
     { name: "Membership", href: "#membership" },
     { name: "Facilities", href: "#facilities" },
     { name: "Classes", href: "#classes" },
-    { name: "Gallery", href: "#gallery" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },

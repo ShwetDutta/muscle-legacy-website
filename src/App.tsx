@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Membership from "./components/Membership";
-import Facilities from "./components/Facilities";
 import Classes from "./components/Classes";
 import Trainers from "./components/Trainers";
 import Gallery from "./components/Gallery";
@@ -50,9 +49,6 @@ export default function App() {
 
         {/* Transparent Premium Plans */}
         <Membership onPlanSelect={handlePlanSelect} />
-
-        {/* State-Of-The-Art Zones */}
-        <Facilities />
 
         {/* Signature Classes */}
         <Classes onClassBookClick={handleClassBook} />

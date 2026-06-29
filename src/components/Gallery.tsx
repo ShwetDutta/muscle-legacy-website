@@ -1,5 +1,5 @@
 import React from "react";
-import { Hammer, Sparkles, Sliders, Shield, Compass } from "lucide-react";
+import { Dumbbell, Flame, Shield, Workflow, Grid } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function Gallery() {
@@ -19,48 +19,43 @@ export default function Gallery() {
   const galleryItems = [
     {
       id: "zone-1",
-      name: "Olympic Strength Platform",
-      code: "ML-OSP-01",
-      description: "Equipped with custom high-grade rubberized bumper plates and rogue steel shafts.",
+      name: "Strength Zone",
+      code: "ML-STZ-01",
       sizeClass: "md:col-span-2 md:row-span-2",
-      icon: Compass,
+      icon: Dumbbell,
     },
     {
       id: "zone-2",
-      name: "Championship Boxing Ring",
-      code: "ML-CBR-02",
-      description: "Full size ring with custom branded canvas, high-impact Title ropes, and heavy duty leather punching rows.",
+      name: "Boxing Area",
+      code: "ML-BXA-02",
       sizeClass: "md:col-span-1 md:row-span-1",
       icon: Shield,
     },
     {
       id: "zone-3",
-      name: "Metabolic HIIT Arena",
-      code: "ML-MHA-03",
-      description: "Sleek magnetic resistance sled tracks, functional monkey rigs, and dual-action assault machinery.",
+      name: "Functional Training",
+      code: "ML-FNT-03",
       sizeClass: "md:col-span-1 md:row-span-1",
-      icon: Sliders,
+      icon: Workflow,
     },
     {
       id: "zone-4",
-      name: "VIP Locker Lounge",
-      code: "ML-VLL-04",
-      description: "Keyless custom biometric wood lockers, high-contrast vanity lighting, and slate stone showers.",
+      name: "Cardio Area",
+      code: "ML-CDA-04",
       sizeClass: "md:col-span-1 md:row-span-2",
-      icon: Sparkles,
+      icon: Flame,
     },
     {
       id: "zone-5",
-      name: "Organic Recovery Suite",
-      code: "ML-ORS-05",
-      description: "Equipped with cold-immersion steel pods, high-temperature cedar wood saunas, and hydration taps.",
+      name: "Free Weights Area",
+      code: "ML-FWA-05",
       sizeClass: "md:col-span-2 md:row-span-1",
-      icon: Hammer,
+      icon: Grid,
     },
   ];
 
   return (
-    <section id="gallery" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
+    <section id="facilities" className="relative bg-brand-bg py-24 sm:py-32 px-6 md:px-12 border-t border-brand-border/20 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
         {/* Title and renovation notice */}
@@ -117,15 +112,11 @@ export default function Gallery() {
                   </div>
                 </div>
 
-                {/* Bottom Row: Blueprint detail description */}
+                {/* Bottom Row: Blueprint detail icon */}
                 <div className="relative z-10">
                   <div className="w-10 h-10 rounded-lg bg-brand-bg border border-brand-border/60 flex items-center justify-center text-brand-accent mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-5 h-5" />
                   </div>
-                  
-                  <p className="text-[11px] text-brand-muted font-sans leading-relaxed max-w-md">
-                    {item.description}
-                  </p>
                 </div>
 
                 {/* Construction details line overlay */}
